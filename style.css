@@ -1,5 +1,8 @@
 body {
-  background-image:url("Unconfirmed 21126.crdownload") ;
+  background-image:url("flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -8,7 +11,7 @@ body {
 }
 
 .contact-form {
-  background: #c7606025;
+  background: #110c0cd8;
   padding: 25px;
   border-radius: 10px;
   max-width: 500px;
