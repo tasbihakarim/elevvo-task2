@@ -1,8 +1,7 @@
 body {
-  background-image:url("flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg") ;
+  background-image:url("pexels-jplenio-1103970.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -11,12 +10,12 @@ body {
 }
 
 .contact-form {
-  background: #110c0cd8;
+  background: #66a5afd7;
   padding: 25px;
   border-radius: 10px;
   max-width: 500px;
   width: 100%;
-  box-shadow: 0px 4px 8px rgba(8, 5, 5, 0.795);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 
 .contact-form h2 {
@@ -37,12 +36,20 @@ label {
   color: #444;
 }
 
-input, textarea {
+
+ input, textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
+  background: #e6dbdb;       
+  color: #000;   /* yahan white ki jagah black text rakho taake visible ho */
+}  /* <<== yeh closing bracket missing thi */
+
+input::placeholder,
+textarea::placeholder {
+  color: #555;   /* halka grey rakho */
 }
 
 textarea {
@@ -51,21 +58,21 @@ textarea {
 }
 
 .btn {
-  width: 100%;
+  display: block;
+  width: 150px;
+  margin: 20px auto;   /* auto se beech mein aayega */
   padding: 12px;
-  background: #fdfdfdfd;
+  background: #007bff;
   border: none;
   border-radius: 6px;
-  color: #1d1b1b;
-  font-size: bold;
+  color: #fff;
+  font-size: 16px;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 .btn:hover {
-  background: #00000079;
+  background: #0056b3;
 }
-
 /* Responsive */
 @media (max-width: 600px) {
   .contact-form {
