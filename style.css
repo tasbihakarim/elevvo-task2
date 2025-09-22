@@ -16,7 +16,7 @@ body {
   border-radius: 10px;
   max-width: 500px;
   width: 100%;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 8px rgba(8, 5, 5, 0.795);
 }
 
 .contact-form h2 {
@@ -63,7 +63,7 @@ textarea {
 }
 
 .btn:hover {
-  background: #4d08083d;
+  background: #00000079;
 }
 
 /* Responsive */
