@@ -1,0 +1,71 @@
+body {
+  background-image:url("Unconfirmed 21126.crdownload") ;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-form {
+  background: #c7606025;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f8e8e8;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #fdfdfdfd;
+  border: none;
+  border-radius: 6px;
+  color: #1d1b1b;
+  font-size: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #4d08083d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 20px;
+  }
+}
