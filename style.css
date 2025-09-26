@@ -44,12 +44,12 @@ label {
   border-radius: 6px;
   font-size: 14px;
   background: #e6dbdb;       
-  color: #000;   /* yahan white ki jagah black text rakho taake visible ho */
-}  /* <<== yeh closing bracket missing thi */
+  color: #000;   
+}  
 
 input::placeholder,
 textarea::placeholder {
-  color: #555;   /* halka grey rakho */
+  color: #555; 
 }
 
 textarea {
@@ -60,7 +60,7 @@ textarea {
 .btn {
   display: block;
   width: 150px;
-  margin: 20px auto;   /* auto se beech mein aayega */
+  margin: 20px auto;  
   padding: 12px;
   background: #007bff;
   border: none;
